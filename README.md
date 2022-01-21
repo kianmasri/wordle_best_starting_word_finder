@@ -12,4 +12,4 @@ If someone would like to optimize my regex or write custom functions for each fi
 
 
 ## What's the best starting word already?
-**raise** which averages 10.86 possible words after the first guess. A little sad it wasn't something less common.
+**roate** which averages 10.78 possible words after the first guess.
