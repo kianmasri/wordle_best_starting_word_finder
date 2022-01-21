@@ -12,4 +12,4 @@ If someone would like to optimize my regex or write custom functions for each fi
 
 
 ## What's the best starting word already?
-For those that just want the best word it is ____ (Waiting on the program to finishing running)
+For those that just want the best word it is **raise**
