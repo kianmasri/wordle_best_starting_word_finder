@@ -46,7 +46,7 @@ for guess in words:
     for key in answers:
         new_words = filter_words(answers, guess, key)
         performance[guess] += len(new_words)
-    out = guess + "\t" + str(performance[guess] / 12972) + "\n"
+    out = guess + "\t" + str(performance[guess] / len(answers)) + "\n"
     f.write(out)
     print(out)
 print(min(performance, key=performance.get))
