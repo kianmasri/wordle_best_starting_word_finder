@@ -10,8 +10,9 @@ The program is written assuming you are playing on https://www.powerlanguage.co.
 
 If someone would like to optimize my regex or write custom functions for each filtering operation to improve performance, I will gladly accept them.
 
-
 ## What's the best starting word already?
-**roate** which averages 10.78 possible words after the first guess.
+Disclaimer: This isn't actually guarenteed to be the best starting word, however it is certainly very good, this just finds the word that eliminates the most words with a single guess on average.
+
+**roate** which averages 60.41 possible words after the first guess.
 
 To see all how all words performed or how your favorite starting word stacks up, see word_performance.txt for a sorted list of how all words performed
