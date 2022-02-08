@@ -10,6 +10,9 @@ The program is written assuming you are playing on https://www.powerlanguage.co.
 
 If someone would like to optimize my regex or write custom functions for each filtering operation to improve performance, I will gladly accept them.
 
+## A better aproach 
+If I were to write a full solver that was more performant, it would be much more performant to heuristically determine a very good top 100 guesses at a certain position in the game then explore the full tree of those top 100 recursively checking heuristically then testing the best from the bunch.
+
 ## What's the best starting word already?
 Disclaimer: This isn't actually guarenteed to be the best starting word, however it is certainly very good, this just finds the word that eliminates the most words with a single guess on average.
 
